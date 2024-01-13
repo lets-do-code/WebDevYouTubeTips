@@ -1,0 +1,32 @@
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid grey;
+}
+
+.nav-icon {
+    font-size: 25px;
+    color: #fff;
+    margin: 0 1rem 0 1rem;
+}
+
+.nav-items {
+    display: flex;
+
+}
+
+.nav-item {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 2rem 0 2rem;
+    list-style-type: none;
+    text-decoration: none;
+}
