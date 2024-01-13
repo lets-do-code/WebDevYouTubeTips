@@ -28,7 +28,7 @@ To get started with weDevYoutubeTips, follow these steps:
 
 bash
 Copy code
-[git clone https://github.com/lets-do-code/WeDevYouTubeTips.git](https://github.com/lets-do-code/WebDevYoTubeTips.git)
+[git clone https://github.com/lets-do-code/WeDevYouTubeTips.git](https://github.com/lets-do-code/WebDevYouTubeTips.git)
 Explore the Tips:
 Navigate to the relevant category folders and explore the tips provided.
 
