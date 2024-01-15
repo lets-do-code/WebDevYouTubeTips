@@ -1,0 +1,35 @@
+body {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.heart {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(-45deg);
+}
+
+.heart:before,
+.heart:after {
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.heart:before {
+    top: -50px;
+    left: 0;
+}
+
+.heart:after {
+    left: 50px;
+    top: 0;
+}
