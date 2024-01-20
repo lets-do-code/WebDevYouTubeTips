@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.emoji {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.eye:before,
+.eye:after {
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #461b1bca;
+    display: flex;
+    justify-content: space-around;
+    top: 50px;
+}
+
+.eye:before {
+    left: 25%;
+}
+
+.eye:after {
+    right: 25%;
+}
+
+.mouth {
+    content: '';
+    position: absolute;
+    height: 60px;
+    width: 90px;
+    border-radius: 70%;
+    background-color: #461b1bca;
+    display: flex;
+    justify-content: space-around;
+    bottom: 15%;
+}
